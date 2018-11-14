@@ -1,6 +1,4 @@
 {
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "cognitive-toolkit-docs-python",
@@ -18,7 +16,7 @@
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "customized_template_paths": [
-         "_dependentPackages/uref/content"
+        "_dependentPackages/uref/content"
       ],
       "customized_tasks": {
         "docset_prebuild": [
@@ -29,9 +27,11 @@
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -40,6 +40,10 @@
       "branch_mapping": {}
     }
   ],
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": false,
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
   "dependent_packages": [
     {
       "id": "opbuild.templates.uref",
@@ -99,6 +103,5 @@
       "ReferenceTOCUrl": "/python/api/cognitive-toolkit/toc.json?view=cntk-py-2.5.1",
       "ConceptualTOCUrl": "/python/cognitive-toolkit/toc.json?view=cntk-py-2.5.1"
     }
-  ],
-  "need_generate_pdf_url_template": false
+  ]
 }
