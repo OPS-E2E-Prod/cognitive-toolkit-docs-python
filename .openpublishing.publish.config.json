@@ -1,31 +1,6 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "cognitive-toolkit-docs-python",
-      "build_source_folder": ".",
-      "build_output_subfolder": "cognitive-toolkit-docs-python",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content",
-        "UniversalReference": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "customized_template_paths": [
-        "_dependentPackages/uref/content"
-      ],
-      "customized_tasks": {
-        "docset_prebuild": [
-          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1"
-        ]
-      },
-      "version": 0
-    },
-    {
       "docset_name": "cognitive-toolkit-docs-python-prod",
       "build_source_folder": "cognitive-toolkit-docs-python-prod",
       "build_output_subfolder": "cognitive-toolkit-docs-python-prod",
